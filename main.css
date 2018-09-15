@@ -6,3 +6,28 @@ html {
 i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
+
+small {
+  color: #e2e2e2;
+}
+
+.btn-ghost {
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: #d89fb0;
+  color: #d89fb0;
+}
+
+.btn:hover {
+  border-color: #b64c6e;
+  color: #b64c6e;
+  background-color: #d89fb0;
+}
+
+.nav-titles {
+  color: #d89fb0;
+}
+
+.nav-titles:hover {
+  color: #860927;
+}
