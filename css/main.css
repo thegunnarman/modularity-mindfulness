@@ -6,39 +6,50 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-small {
-  color: #e2e2e2;
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: #005e76;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.slogan {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .btn-ghost {
-  border-radius: 4px;
+  color: #005e76;
+  border-color: #8bc9d9;
   border-width: 2px;
-  border-color: #d89fb0;
-  color: #d89fb0;
 }
 
-.btn:hover {
-  border-color: #b64c6e;
-  color: #b64c6e;
-  background-color: #d89fb0;
+.btn-ghost:hover {
+  color: #000;
+  background-color: #0084a6;
+  border-color: #005e76;
 }
 
-.nav-titles {
-  color: #d89fb0;
+.border {
+  border-top: 2px solid #e2e2e2;
 }
 
-.nav-titles:hover {
-  color: #860927;
+footer {
+  color: #666;
 }
 
-@media screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
-  .nav {
+  .masthead {
+    text-align: left;
+  }
+
+  .head-right {
     text-align: right;
   }
 
-}
-
-.border-top .border-bottom {
-  border-color: #e2e2e2;
 }
